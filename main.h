@@ -8,6 +8,6 @@
 #include <string.h>
 
 char *input(void);
-char *commands(void);
+char **commands(char *buffer, const char *str);
 
 #endif
