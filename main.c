@@ -1,9 +1,9 @@
 #include "main.h"
 
- /*
+/*
  * main - infinity loop at the core of the simple shell
- * Return:
- */
+ * Return: 0 on success, exit with 0 on fail
+*/
 int main(void)
 {
     char *line = NULL;
