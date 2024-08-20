@@ -1,23 +1,31 @@
 #include "main.h"
 
-/*
- * main - infinity loop at the core of the simple shell
+/**
+ * main - infinite loop at the core of the simple shell
+ * @argc: arguments count
+ * @argv: list of arguments
+ * @envp: environnement variable
+ *
  * Return: 0 on success, exit with 0 on fail
 */
 int main(int argc, char **argv, char **envp)
 {
-	char *line = NULL;
+	char *line;
+	char **args;
+
+	(void)argv;
+	(void)argc;
 
 	while (1)
 	{
-		printf("$ ");  /* Afficher le prompt */
+		line = input("$");
+		if (line == NULL)
+			break;
 
-		nread = getline(&line, &len, stdin);
-		if (nread == -1)
+		if (strlen(line) == NULL)
 		{
-			perror("getline");
 			free(line);
-			exit(1);
+			continue;
 		}
 	}
 	free(line);
