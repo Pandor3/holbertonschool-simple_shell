@@ -6,6 +6,6 @@
 #include <stdio.h>
 #include <string.h>
 
-
+char *input(void);
 
 #endif
