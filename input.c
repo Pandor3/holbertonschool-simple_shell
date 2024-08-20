@@ -15,12 +15,9 @@ char *input(void)
 
 	if (read == -1)
 	{
-		printf("$ %s", line);
+		free(line);
+		perror("Erreur");
+		exit(EXIT_FAILURE);
 	}
-	else
-	{
-		printf("Error");
-	}
-	free(line);
-	return (0);
+	return (line);
 }
