@@ -9,6 +9,7 @@
 
 char *input(void);
 char **commands(char *buffer, const char *str);
-
+char *path(char **envp);
+int changedir(const char *path);
 
 #endif
