@@ -10,6 +10,9 @@
 char *input(void);
 char **commands(char *buffer, const char *str);
 char *path(char **envp);
+void printenv(char **env);
 int changedir(const char *path);
+void free_memory(char *buffer, char **args);
+void exitshell(char *line, char **args);
 
 #endif
