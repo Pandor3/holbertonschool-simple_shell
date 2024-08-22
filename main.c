@@ -1,4 +1,4 @@
-#include "shell.h"
+#include "main.h"
 
 /**
  * main - infinite loop at the core of the simple shell
@@ -18,7 +18,8 @@ int main(int argc, char **argv, char **envp)
 
 	while (1)
 	{
-		line = input("$");
+		printf("$");
+		line = input();
 		if (line == NULL)
 			break;
 
@@ -28,7 +29,7 @@ int main(int argc, char **argv, char **envp)
 			continue;
 		}
 		if (args[0] != NULL)
-		process_command(args, envp, line);
+		commands(args, envp, line);
 
 		free_continue(args);
 		free(line);
