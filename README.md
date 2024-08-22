@@ -5,12 +5,12 @@ This project's goal is to test everything that we've learned until now aswell as
 Further down this page, you will get informations aswell as instructions on how to use our `shell`
 
 # Summary
-- Contents of the repository
-- Prerequisite
-- Installation
-- How to use
-- Flowchart
-- Authors
+- [Contents of the repository](https://github.com/Pandor3/holbertonschool-simple_shell/blob/Florian/README.md#contents-of-the-repository)
+- [Prerequisite](https://github.com/Pandor3/holbertonschool-simple_shell/blob/Florian/README.md#prerequisite)
+- [Installation](https://github.com/Pandor3/holbertonschool-simple_shell/blob/Florian/README.md#installation)
+- [How to use](https://github.com/Pandor3/holbertonschool-simple_shell/blob/Florian/README.md#installation)
+- [Flowchart](https://github.com/Pandor3/holbertonschool-simple_shell/blob/Florian/README.md#flowchart)
+- [Authors](https://github.com/Pandor3/holbertonschool-simple_shell/blob/Florian/README.md#flowchart)
 
 ## Contents of the repository
 **README.md**
