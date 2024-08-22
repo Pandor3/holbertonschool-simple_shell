@@ -85,7 +85,7 @@ Here is an example of several commands which you may try :
 
 ## Flowchart
 
-Work in progress
+![Flowchart picture](https://www.pixenli.com/image/lA6dkqyt)
 
 ## Authors
 
