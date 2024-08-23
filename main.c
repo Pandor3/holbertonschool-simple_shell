@@ -29,9 +29,9 @@ int main(int argc, char **argv, char **envp)
 			continue;
 		}
 		if (args[0] != NULL)
-		commands(*args, *envp, *line);
+		commands(*args, *envp);
 
-		free_continue(args);
+		free_memory(*args, args);
 		free(line);
 	}
 	free(line);
