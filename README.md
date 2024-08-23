@@ -4,6 +4,8 @@ This project's goal is to recreate a shell which is a program who receives comma
 This project's goal is to test everything that we've learned until now aswell as our understanding of everything that we might code.
 Further down this page, you will get informations aswell as instructions on how to use our `shell`
 
+Be forewarned though, it is still a work in progress and not all of the functions described below may be available at the moment.
+
 # Summary
 - [Contents of the repository](https://github.com/Pandor3/holbertonschool-simple_shell/blob/Florian/README.md#contents-of-the-repository)
 - [Prerequisite](https://github.com/Pandor3/holbertonschool-simple_shell/blob/Florian/README.md#prerequisite)

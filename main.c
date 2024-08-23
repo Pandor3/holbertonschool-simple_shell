@@ -23,13 +23,13 @@ int main(int argc, char **argv, char **envp)
 		if (line == NULL)
 			break;
 
-		if (strlen(line) == NULL)
+		if (strlen(line) == '\0')
 		{
 			free(line);
 			continue;
 		}
 		if (args[0] != NULL)
-		commands(args, envp, line);
+		commands(*args, *envp, *line);
 
 		free_continue(args);
 		free(line);
