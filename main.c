@@ -23,7 +23,7 @@ int main(int argc, char **argv, char **envp)
 		if (line == NULL)
 			break;
 
-		if (strlen(line) == '\0')
+		if (strlen(line) == 0)
 		{
 			free(line);
 			continue;
