@@ -1,0 +1,55 @@
+.TH SIMPLE_SHELL 1 "22 AOUT 2024"
+
+.SH NAME
+hsh \- program which emulates a shell terminal with its options.
+
+.SH SYNOPSIS
+.B #include <sys/types.h>
+.B #include <sys/wait.h>
+.B include <stdlib.h>
+.B include <unistd.h>
+.B include <stdio.h>
+.B include <string.h>
+
+.SH DESCRIPTION
+.B hsh
+This program is used to emulate a shell environment.
+
+.TP
+.B ls
+Lists all files
+
+.B cd 
+Changes directories
+
+.B pwd
+Shows the current path
+
+.B whoami
+Shows the current user's ID
+
+.SH RETURN VALUE
+The program
+.B hsh
+returns the result of the child process asked by the current user.
+
+.SH ERRORS
+In case of the
+.B hsh
+program malfunctioning, it will return an error message.
+
+.SH EXAMPLE
+$ ./hsh
+
+ls 
+
+$ AUTHORS    changedir.c  exitshell.c    hsh      main.c  man_simple_shell  printenv.c
+  README.md  commands.c   free_memory.c  input.c  main.h  path.c
+
+.SH AUTHORS
+
+.I Camille Pelletier
+(https://github.com/pelcam/)
+
+I. Florian Bombeeck
+(https://github.com/Pandor3/)
