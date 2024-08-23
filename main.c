@@ -10,7 +10,7 @@
 */
 int main(int argc, char **argv, char **envp)
 {
-	char *line = NULL;
+	char *line;
 	char **args = NULL;
 
 	(void)argv;
