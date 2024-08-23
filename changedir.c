@@ -21,7 +21,7 @@ int changedir(const char *path)
 		}
 		path = buffer;
 	}
-	if (chdir(path) == -1)
+	if (changedir(path) == -1)
 	{
 		perror(path);
 		free(buffer);
